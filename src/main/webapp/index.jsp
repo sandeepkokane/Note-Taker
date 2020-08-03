@@ -31,7 +31,7 @@
 						<div class="card-body">
 							<p class="card-text">With supporting text below as a natural
 								lead-in to additional content and adding functionality.</p>
-							<a href="#" class="btn btn-primary">Click to Start adding...</a>
+							<a href="add.jsp" class="btn btn-primary">Click to Start adding...</a>
 						</div>
 					</div>
 				</div>
@@ -43,7 +43,7 @@
 						<div class="card-body">
 							<p class="card-text">With supporting of updating and deleting
 								notes very easily and efectively.</p>
-							<a href="#" class="btn btn-primary">Click to View notes...</a>
+							<a href="view.jsp" class="btn btn-primary">Click to View notes...</a>
 						</div>
 					</div>
 				</div>
@@ -69,6 +69,9 @@
 		</div>
 	</main>
 
+<footer>
+	<%@ include file="components/footer.jsp" %>
+</footer>
 
 </body>
 </html>
